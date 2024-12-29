@@ -237,7 +237,7 @@ query GetUserAndPosts {
 - **extensions (необов'язково):** Об'єкт для додавання додаткової інформації, не передбаченої специфікацією GraphQL (наприклад, інформація про налагодження).
 
 Приклад відповіді сервера GraphQL (на запит вище):
-```graphql
+```JSON
 {
   "data": {
     "user": {
@@ -279,7 +279,7 @@ query GetUserPosts {
 
 Приклад відповіді сервера:
 
-```graphql
+```JSON
 {
   "data": {
     "user": {
@@ -318,7 +318,7 @@ mutation CreateUser {
 
 Приклад відповіді сервера:
 
-```graphql
+```JSON
 {
   "data": {
     "createUser": {
